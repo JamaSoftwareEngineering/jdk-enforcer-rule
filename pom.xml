@@ -8,10 +8,10 @@
     </parent>
     <groupId>com.jamasoftware.maven.enforcer</groupId>
     <artifactId>jdk-enforcer-rule</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <scm>
         <connection>scm:git:git@git.jamasoftware.net:maven/jdk-enforcer-rule.git</connection>
-        <tag>HEAD</tag>
+        <tag>jdk-enforcer-rule-1.0.0</tag>
     </scm>
     <dependencies>
         <dependency>
