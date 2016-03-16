@@ -2,9 +2,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>jama-parent</artifactId>
-        <groupId>com.jamasoftware</groupId>
-        <version>1.0.4</version>
+        <artifactId>jama-parent-oss</artifactId>
+        <groupId>com.jamasoftware.oss</groupId>
+        <version>1.0.0</version>
     </parent>
     <groupId>com.jamasoftware.maven.enforcer</groupId>
     <artifactId>jdk-enforcer-rule-test</artifactId>
@@ -34,7 +34,7 @@
                     <dependency>
                         <groupId>com.jamasoftware.maven.enforcer</groupId>
                         <artifactId>jdk-enforcer-rule</artifactId>
-                        <version>0.0.1-SNAPSHOT</version>
+                        <version>1.0.1-SNAPSHOT</version>
                     </dependency>
                 </dependencies>
             </plugin>
