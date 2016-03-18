@@ -3,12 +3,8 @@ package com.jamasoftware.maven.enforcer.jdk;
 import org.apache.maven.enforcer.rule.api.EnforcerRule;
 import org.apache.maven.enforcer.rule.api.EnforcerRuleException;
 import org.apache.maven.enforcer.rule.api.EnforcerRuleHelper;
-import org.apache.maven.model.Profile;
 import org.apache.maven.plugin.logging.Log;
-import org.apache.maven.project.MavenProject;
-import org.codehaus.plexus.component.configurator.expression.ExpressionEvaluationException;
 
-import java.util.List;
 import java.util.Properties;
 
 import static java.lang.String.format;
@@ -34,7 +30,7 @@ public class JdkEnforcerRule implements EnforcerRule {
         }
 
         Log log = helper.getLog();
-        log.info("your JDK is approved for Jama usage");
+        log.info("your JDK is approved as Oracle Java SE");
     }
 
     private void throwRuntimeException(String propertyName, String propertyValue) throws EnforcerRuleException {
