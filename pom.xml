@@ -8,7 +8,7 @@
     </parent>
     <groupId>com.jamasoftware.maven.enforcer</groupId>
     <artifactId>jdk-enforcer-rule</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2-SNAPSHOT</version>
     <name>${project.artifactId}: enforce JDK version</name>
     <description>Enforcer rule to check a certain JDK version</description>
     <url>https://github.com/JamaSoftwareEngineering/linkchecker-maven-plugin</url>
@@ -25,7 +25,7 @@
     </licenses>
     <scm>
         <connection>scm:git:git@github.com:JamaSoftwareEngineering/jdk-enforcer-rule.git</connection>
-        <tag>jdk-enforcer-rule-1.0.1</tag>
+        <tag>HEAD</tag>
     </scm>
     <dependencies>
         <dependency>
